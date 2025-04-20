@@ -4,9 +4,6 @@ AR destekli, küçük çocuklara yönelik adım-adım yemek yapma oyunu.
 
 Bu proje, küçük çocuklara algoritmik düşünme becerisi kazandırmak amacıyla geliştirilmiş, mobil tabanlı bir Artırılmış Gerçeklik (AR) oyunudur. Çocuklar, ekranda beliren 3D yemek malzemelerini doğru sırayla kullanarak çeşitli tarifleri hazırlamayı öğrenir.
 
-📋 Proje sürecini adım adım takip etmek için:
-🔗 https://trello.com/b/7gjRe2zo/ar-mini-sef-proje-takibi
-
 ---
 
 ## 🎯 Amaç
@@ -112,6 +109,9 @@ Assets > Scenes > SampleScene.unity
 - UseCase Diagram.pdf
 
 ---
+
+📋 **Proje sürecini adım adım takip etmek için Trello panosu ziyaret edin:**  
+🔗 [AR Mini Şef - Trello Proje Takibi](https://trello.com/b/7gjRe2zo/ar-mini-sef-proje-takibi)
 
 ## 👨‍🎓 Geliştirici
 
