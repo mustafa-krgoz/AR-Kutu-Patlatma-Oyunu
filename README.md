@@ -35,13 +35,45 @@ Bu proje, küçük çocuklara algoritmik düşünme becerisi kazandırmak amacı
 
 ---
 
-## 🚀 Kurulum
+---
 
-1. Unity Hub üzerinden Unity 2021.3.16f1 (LTS) sürümünü indir  
-2. Bu projeyi Unity Hub üzerinden aç  
-3. Gerekli platform desteği için `iOS Build Support` kurulu olmalı  
-4. Projeyi `SampleScene` üzerinden çalıştır  
-5. Test için gerçek bir iOS cihaz ve Xcode bağlantısı gereklidir
+## ⚙️ Kurulum ve Çalıştırma Kılavuzu
+
+Bu kılavuz, AR Mini Şef mobil uygulamasını sıfırdan derleyip çalıştırmak isteyenler için hazırlanmıştır.
+
+---
+
+### 🧰 Gereksinimler
+
+- Unity Hub (önerilen sürüm: 2021.3.16f1 LTS)
+- Xcode (iOS için, önerilen: 14 veya üzeri)
+- Apple Developer hesabı (test amaçlı)
+- iPhone cihazı
+- Git yüklü sistem
+
+---
+
+### 🧱 Projenin Kurulumu
+
+1. Bu repoyu klonlayın:
+
+   ```bash
+   git clone https://github.com/mustafa-krgoz/AR-Mini-Sef.git
+   cd AR-Mini-Sef	
+2.	Unity Hub’ı açın ve AR-Mini-Sef klasörünü Add butonuyla projeye ekleyin.
+3.	Unity’de proje açıldığında, sahnede yer alan SampleScene’i açın:
+Assets > Scenes > SampleScene.unity
+4.	File > Build Settings > iOS platformunu seçin ve Switch Platform yapın.
+
+
+---
+
+📱 iOS Build Alma
+	1.	File > Build Settings‘ten iOS platformunu seçin ve sahneyi build’e ekleyin.
+	2.	Build tuşuna basarak build klasörü oluşturun (örneğin: ARMiniSefBuild).
+	3.	Oluşan .xcodeproj dosyasını Xcode ile açın.
+	4.	Signing & Capabilities sekmesinden Apple hesabınızı seçin.
+	5.	iPhone’unuzu bağlayın, Xcode üzerinden Cmd + R yaparak uygulamayı çalıştırın.
 
 ---
 
