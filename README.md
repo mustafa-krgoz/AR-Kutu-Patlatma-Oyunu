@@ -53,7 +53,7 @@ Bu kılavuz, AR Mini Şef mobil uygulamasını sıfırdan derleyip çalıştırm
 
 ---
 
-### 🧱 Projenin Kurulumu
+## 🧱 Projenin Kurulumu
 
 1. Bu repoyu klonlayın:
 
@@ -68,12 +68,13 @@ Assets > Scenes > SampleScene.unity
 
 ---
 
-📱 iOS Build Alma
-	1.	File > Build Settings‘ten iOS platformunu seçin ve sahneyi build’e ekleyin.
-	2.	Build tuşuna basarak build klasörü oluşturun (örneğin: ARMiniSefBuild).
-	3.	Oluşan .xcodeproj dosyasını Xcode ile açın.
-	4.	Signing & Capabilities sekmesinden Apple hesabınızı seçin.
-	5.	iPhone’unuzu bağlayın, Xcode üzerinden Cmd + R yaparak uygulamayı çalıştırın.
+## 📱 iOS Build Alma
+
+1. File > Build Settings‘ten iOS platformunu seçin ve sahneyi build’e ekleyin.
+2. Build tuşuna basarak build klasörü oluşturun (örneğin: ARMiniSefBuild).
+3. Oluşan .xcodeproj dosyasını Xcode ile açın.
+4. Signing & Capabilities sekmesinden Apple hesabınızı seçin.
+5. iPhone’unuzu bağlayın, Xcode üzerinden Cmd + R yaparak uygulamayı çalıştırın.
 
 ---
 
