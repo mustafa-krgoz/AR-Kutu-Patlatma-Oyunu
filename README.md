@@ -1,32 +1,76 @@
-# unity-ar-example
+# 🧑‍🍳 AR Mini Şef
 
-A small example of AR integration in Unity using AR Foundation. Using this application, a randomly chosen food item can be placed using a placement cursor in an AR scene. This project is built using Unity and is designed to run on Android devices (not tested on iOS).
+AR destekli, küçük çocuklara yönelik adım-adım yemek yapma oyunu.
 
-## Supported Platforms
-This project is designed for use on both iOS and Android, but it has only been tested on Android.
+Bu proje, küçük çocuklara algoritmik düşünme becerisi kazandırmak amacıyla geliştirilmiş, mobil tabanlı bir Artırılmış Gerçeklik (AR) oyunudur. Çocuklar, ekranda beliren 3D yemek malzemelerini doğru sırayla kullanarak çeşitli tarifleri hazırlamayı öğrenir.
 
-## Running locally
-Use the following steps to run locally:
-1. Clone this repo
-2. Open repo folder using Unity 2021.3.16f1
+---
 
-## Development
-Setup steps to be able to include AR Foundation and build and deploy:
-- Install AR Foundation located in the Package Manager under AR Foundation
-- Install ARKit located in the Package Manager under AR Kit XR Plugin (required for iOS devices)
-- Install ARCore located in the Package Manager under AR Core XR Plugin (required for Android devices)
-- In Project Settings > XR Plug-in Management, set the Plug-in Provider on the Android tab to ARCore
-- Ensure AR scenes contain an AR Session and AR Session Origin
-- In Project Settings > Resolution and Presentation, disable Render Outside Safe Space
-- For Android, in Project Settings > Other Settings, set Minimum API Level to Android API level 24 or higher (this is required to build for Android)
-- For Android, in Project Settings > Other Settings, remove Vulkan from Graphics APIs (this is required to build for Android, need to uncheck Auto Graphics API first)
-- For Android, in Project Settings > Other Settings, Set Scripting Backend to IL2CPP
-- For Android, in Project Settings > Other Settings, Add ARM64 to Target Architectures
+## 🎯 Amaç
 
-## Development Tools
-- Created using Unity 2021.3.16f1
-- Code edited using Visual Studio Code
+- Çocuklara sırayla işlem yapma (algoritmik düşünme) öğretmek  
+- Etkileşimli bir öğrenme ortamı sunmak  
+- Görsel ve işitsel geri bildirimlerle dikkat süresini artırmak
 
-## Credits
-Code and scene structure is based on this tutorial:
-https://www.youtube.com/watch?v=R3OCUE9TwZk
+---
+
+## 🔧 Özellikler
+
+- 📷 AR kamera ile gerçek dünyada sanal yemek malzemelerini görüntüleme  
+- 🧩 Görevler: Reçelli ekmek, salata, muzlu süt gibi tarifleri doğru sırayla yapma  
+- 🔊 Sesli ve görsel geri bildirim sistemi  
+- ⭐ Rozet ve yıldız sistemi ile ilerleme motivasyonu  
+- 👶 Renkli ve sade tasarım, küçük çocuklara uygun arayüz
+
+---
+
+## 💻 Kullanılan Teknolojiler
+
+- Unity 2021.3.16f1 (LTS)  
+- C#  
+- AR Foundation (ARKit ile iOS desteği)  
+- Sketchfab / TurboSquid (3D modeller)  
+- Unity AudioSource (ses efektleri)  
+- Unity Raycasting (kullanıcı etkileşimi)
+
+---
+
+## 🚀 Kurulum
+
+1. Unity Hub üzerinden Unity 2021.3.16f1 (LTS) sürümünü indir  
+2. Bu projeyi Unity Hub üzerinden aç  
+3. Gerekli platform desteği için `iOS Build Support` kurulu olmalı  
+4. Projeyi `SampleScene` üzerinden çalıştır  
+5. Test için gerçek bir iOS cihaz ve Xcode bağlantısı gereklidir
+
+---
+
+## 📁 Klasör Yapısı
+
+- `Assets/` → Tüm oyun içeriği ve sahneler  
+- `Packages/` → Unity paket yönetimi  
+- `ProjectSettings/` → Proje yapılandırmaları  
+- `docs/` → Dökümantasyon dosyaları (gereksinim, test, sunum, vb.)
+
+---
+
+## 📄 Teslim Belgeleri
+
+- Gereksinim Analizi  
+- RAMS Tasarımı  
+- Kullanıcı ve Programcı Kılavuzları  
+- Test Raporu  
+- Proje Sunumu (PDF)  
+- Alfa & Beta Sürüm Gelişim Belgesi  
+- Prototip & Mockup Belgesi  
+- Ürün Değerlendirme Belgesi  
+- Kurulum Rehberi  
+
+---
+
+## 👨‍🎓 Geliştirici
+
+**Adı Soyadı:** Halit Mustafa Karagöz  
+**Öğrenci No:** 200541043  
+**Proje Dersi:** Yazılım Mühendisliğinde Güncel Konular  
+**Teslim Dönemi:** Bahar 2025
