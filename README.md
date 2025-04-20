@@ -56,15 +56,24 @@ Bu proje, küçük çocuklara algoritmik düşünme becerisi kazandırmak amacı
 
 ## 📄 Teslim Belgeleri
 
-- Gereksinim Analizi  
-- RAMS Tasarımı  
-- Kullanıcı ve Programcı Kılavuzları  
-- Test Raporu  
-- Proje Sunumu (PDF)  
-- Alfa & Beta Sürüm Gelişim Belgesi  
-- Prototip & Mockup Belgesi  
-- Ürün Değerlendirme Belgesi  
-- Kurulum Rehberi  
+- ARMiniSefGereksinimAnalizi.docx  
+- AR_Mini_Sef_Alfa_Beta_Surum_Raporu.docx  
+- AR_Mini_Sef_Haftalik_Durum_Toplantilari.docx  
+- AR_Mini_Sef_Kullanici_Kilavuzu.docx  
+- AR_Mini_Sef_Kurulum_Kilavuzu_Guncel.docx  
+- AR_Mini_Sef_Programci_Kilavuzu.docx  
+- AR_Mini_Sef_Proje_Genel_Bakis.docx  
+- AR_Mini_Sef_Proje_Sunumu.pptx  
+- AR_Mini_Sef_Prototip_Sahne_Mockup_Belgesi.docx  
+- AR_Mini_Sef_Sistem_Mimarisi.docx  
+- AR_Mini_Sef_Takim_Rehberi_Bireysel_Katki.docx  
+- AR_Mini_Sef_Test_Raporu.docx  
+- AR_Mini_Sef_Urun_Degerlendirme_Belgesi.docx  
+- AR_Mini_Sef_Zaman_Cizelgesi.docx  
+- RAMS Tasarım İlkeleri.docx  
+- Class Diagram.pdf  
+- SequenceDiagram.pdf  
+- UseCase Diagram.pdf
 
 ---
 
