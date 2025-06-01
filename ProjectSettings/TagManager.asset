@@ -4,24 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - DraggableItem
-  - pan
-  - knife
-  - cuttingBoard
-  - plate
-  - burger
-  - lettuce
-  - Cheese
-  - Steak
-  - CookedSteak
-  - CutCheese
-  - menuOne
-  - menuTwo
-  - taco
-  - CookedShrimp
-  - Shrimp
-  - Absinthe
-  - icecream
+  - dart_board
+  - dart
+  - AR Session Origin
+  - DartThrowPoint
   layers:
   - Default
   - TransparentFX

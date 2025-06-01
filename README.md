@@ -1,121 +1,33 @@
-# 🧑‍🍳 AR Mini Şef
+# AR Dart Game Development
 
-AR destekli, küçük çocuklara yönelik adım-adım yemek yapma oyunu.
+  This project involved the creation of an augmented reality (AR) dart game utilizing Unity and AR
+Foundation, featuring two 3D models: a dartboard and a dart. The game offers an interactive experience
+where players can throw virtual darts at a dartboard. Successful hits dynamically increase the player's
+score, providing real-time feedback and fostering an immersive gaming experience.
 
-Bu proje, küçük çocuklara algoritmik düşünme becerisi kazandırmak amacıyla geliştirilmiş, mobil tabanlı bir Artırılmış Gerçeklik (AR) oyunudur. Çocuklar, ekranda beliren 3D yemek malzemelerini doğru sırayla kullanarak çeşitli tarifleri hazırlamayı öğrenir.
+  The game utilizes both plane detection and image target technology, providing flexibility and compatibility across various augmented reality environments. Plane detection allows the dartboard to be positioned on real-world surfaces like tables or floors, while image target enables the dartboard to appear when a specific image is scanned. This dual approach ensures that the game can be played in a variety of settings, offering users an adaptable and engaging AR experience.
 
----
+## Features
+- Plane Detection: The game uses AR Foundation's plane detection feature to place the dartboard on real-world surfaces like tables or floors.
+- Image Target Technology: The game is also compatible with image target recognition, allowing the dartboard to appear when a specific image is scanned.
+- Interactive Gameplay: Players can throw virtual darts and receive real-time feedback on their performance, enhancing the immersive experience.
+- 3D Models: The game incorporates custom 3D models for both the dartboard and the dart, adding a realistic touch to the AR environment.
+- Score System: The game features a dynamic score system where the player's score increases with each successful dart throw.
+- Distance Display: The game shows the distance between the camera (player) and the dartboard, adding context to the player's position in the AR environment.
 
-## 🎯 Amaç
+## Dependencies
+- Unity: The game is developed using Unity for creating the AR experience.
+- AR Foundation: Unity's AR Foundation is used for handling augmented reality features like plane detection and image tracking.
+- C#: Scripts are written in C# to control the game's logic, such as dart throwing and scoring.
 
-- Çocuklara sırayla işlem yapma (algoritmik düşünme) öğretmek  
-- Etkileşimli bir öğrenme ortamı sunmak  
-- Görsel ve işitsel geri bildirimlerle dikkat süresini artırmak
+## Getting Started
+  To run this project, you need Unity with AR Foundation support installed. Follow these steps to set up and run the game:
+- Clone the repository or download the project files.
+- Open the project in Unity.
+- Ensure that the necessary AR packages are imported, such as AR Foundation, ARCore (for Android), or ARKit (for iOS).
+- Download and install any required libraries and dependencies through the Unity Package Manager.
+- Build the project to your target platform (Android or iOS).
+- Deploy the application to your mobile device and start playing the game. 
 
----
-
-## 🔧 Özellikler
-
-- 📷 AR kamera ile gerçek dünyada sanal yemek malzemelerini görüntüleme  
-- 🧩 Görevler: Reçelli ekmek, salata, muzlu süt gibi tarifleri doğru sırayla yapma  
-- 🔊 Sesli ve görsel geri bildirim sistemi  
-- ⭐ Rozet ve yıldız sistemi ile ilerleme motivasyonu  
-- 👶 Renkli ve sade tasarım, küçük çocuklara uygun arayüz
-
----
-
-## 💻 Kullanılan Teknolojiler
-
-- Unity 2021.3.16f1 (LTS)  
-- C#  
-- AR Foundation (ARKit ile iOS desteği)  
-- Sketchfab / TurboSquid (3D modeller)  
-- Unity AudioSource (ses efektleri)  
-- Unity Raycasting (kullanıcı etkileşimi)
-
----
-
----
-
-## ⚙️ Kurulum ve Çalıştırma Kılavuzu
-
-Bu kılavuz, AR Mini Şef mobil uygulamasını sıfırdan derleyip çalıştırmak isteyenler için hazırlanmıştır.
-
----
-
-### 🧰 Gereksinimler
-
-- Unity Hub (önerilen sürüm: 2021.3.16f1 LTS)
-- Xcode (iOS için, önerilen: 14 veya üzeri)
-- Apple Developer hesabı (test amaçlı)
-- iPhone cihazı
-- Git yüklü sistem
-
----
-
-## 🧱 Projenin Kurulumu
-
-1. Bu repoyu klonlayın:
-
-   ```bash
-   git clone https://github.com/mustafa-krgoz/AR-Mini-Sef.git
-   cd AR-Mini-Sef	
-2.	Unity Hub’ı açın ve AR-Mini-Sef klasörünü Add butonuyla projeye ekleyin.
-3.	Unity’de proje açıldığında, sahnede yer alan SampleScene’i açın:
-Assets > Scenes > SampleScene.unity
-4.	File > Build Settings > iOS platformunu seçin ve Switch Platform yapın.
-
-
----
-
-## 📱 iOS Build Alma
-
-1. File > Build Settings‘ten iOS platformunu seçin ve sahneyi build’e ekleyin.
-2. Build tuşuna basarak build klasörü oluşturun (örneğin: ARMiniSefBuild).
-3. Oluşan .xcodeproj dosyasını Xcode ile açın.
-4. Signing & Capabilities sekmesinden Apple hesabınızı seçin.
-5. iPhone’unuzu bağlayın, Xcode üzerinden Cmd + R yaparak uygulamayı çalıştırın.
-
----
-
-## 📁 Klasör Yapısı
-
-- `Assets/` → Tüm oyun içeriği ve sahneler  
-- `Packages/` → Unity paket yönetimi  
-- `ProjectSettings/` → Proje yapılandırmaları  
-- `docs/` → Dökümantasyon dosyaları (gereksinim, test, sunum, vb.)
-
----
-
-## 📄 Teslim Belgeleri
-
-- ARMiniSefGereksinimAnalizi.docx  
-- AR_Mini_Sef_Alfa_Beta_Surum_Raporu.docx  
-- AR_Mini_Sef_Haftalik_Durum_Toplantilari.docx  
-- AR_Mini_Sef_Kullanici_Kilavuzu.docx  
-- AR_Mini_Sef_Kurulum_Kilavuzu_Guncel.docx  
-- AR_Mini_Sef_Programci_Kilavuzu.docx  
-- AR_Mini_Sef_Proje_Genel_Bakis.docx  
-- AR_Mini_Sef_Proje_Sunumu.pptx  
-- AR_Mini_Sef_Prototip_Sahne_Mockup_Belgesi.docx  
-- AR_Mini_Sef_Sistem_Mimarisi.docx  
-- AR_Mini_Sef_Takim_Rehberi_Bireysel_Katki.docx  
-- AR_Mini_Sef_Test_Raporu.docx  
-- AR_Mini_Sef_Urun_Degerlendirme_Belgesi.docx  
-- AR_Mini_Sef_Zaman_Cizelgesi.docx  
-- RAMS Tasarım İlkeleri.docx  
-- Class Diagram.pdf  
-- SequenceDiagram.pdf  
-- UseCase Diagram.pdf
-
----
-
-📋 **Proje sürecini adım adım takip etmek için Trello panosu ziyaret edin:**  
-🔗 [AR Mini Şef - Trello Proje Takibi](https://trello.com/b/7gjRe2zo/ar-mini-sef-proje-takibi)
-
-## 👨‍🎓 Geliştirici
-
-**Adı Soyadı:** Halit Mustafa Karagöz  
-**Öğrenci No:** 200541043  
-**Proje Dersi:** Yazılım Mühendisliğinde Güncel Konular  
-**Teslim Dönemi:** Bahar 2025
+## Video Demonstration
+• https://www.youtube.com/shorts/esa0YSy-xG8
