@@ -1,33 +1,34 @@
-# AR Dart Game Development
+# AR Dart Oyunu
 
-  This project involved the creation of an augmented reality (AR) dart game utilizing Unity and AR
-Foundation, featuring two 3D models: a dartboard and a dart. The game offers an interactive experience
-where players can throw virtual darts at a dartboard. Successful hits dynamically increase the player's
-score, providing real-time feedback and fostering an immersive gaming experience.
+Bu proje, Unity ve AR Foundation kullanılarak geliştirilen artırılmış gerçeklik (AR) tabanlı bir dart oyunudur. Oyuncular, sanal dartları gerçek dünyadaki bir dart tahtasına fırlatarak eğlenceli ve etkileşimli bir deneyim yaşar. Başarılı isabetler anlık olarak puana yansır ve gerçek zamanlı geri bildirim sağlar.
 
-  The game utilizes both plane detection and image target technology, providing flexibility and compatibility across various augmented reality environments. Plane detection allows the dartboard to be positioned on real-world surfaces like tables or floors, while image target enables the dartboard to appear when a specific image is scanned. This dual approach ensures that the game can be played in a variety of settings, offering users an adaptable and engaging AR experience.
+Oyun, hem düzlem algılama (plane detection) hem de görsel hedef (image tracking) teknolojilerini kullanır. Böylece oyun farklı ortamlarda esnek şekilde oynanabilir. Dart tahtası, masa veya zemin gibi yüzeylere yerleştirilebilir ya da belirli bir görsel hedef ile otomatik olarak çağrılabilir.
 
-## Features
-- Plane Detection: The game uses AR Foundation's plane detection feature to place the dartboard on real-world surfaces like tables or floors.
-- Image Target Technology: The game is also compatible with image target recognition, allowing the dartboard to appear when a specific image is scanned.
-- Interactive Gameplay: Players can throw virtual darts and receive real-time feedback on their performance, enhancing the immersive experience.
-- 3D Models: The game incorporates custom 3D models for both the dartboard and the dart, adding a realistic touch to the AR environment.
-- Score System: The game features a dynamic score system where the player's score increases with each successful dart throw.
-- Distance Display: The game shows the distance between the camera (player) and the dartboard, adding context to the player's position in the AR environment.
+## Özellikler
+- **Düzlem Algılama**: Gerçek yüzeyleri algılayarak dart tahtasını konumlandırma.
+- **Görsel Hedef Tanıma**: Belirli bir görsel hedefi tarayarak oyun öğelerini başlatma.
+- **Etkileşimli Oynanış**: Oyuncu sanal dart fırlatır, başarılı atışlar puan getirir.
+- **3D Modeller**: Dart ve dart tahtası için özel hazırlanmış gerçekçi 3B modeller.
+- **Puanlama Sistemi**: Her başarılı atışla artan dinamik puanlama sistemi.
+- **Mesafe Göstergesi**: Oyuncunun cihaz ile dart tahtası arasındaki mesafe gösterilir.
 
-## Dependencies
-- Unity: The game is developed using Unity for creating the AR experience.
-- AR Foundation: Unity's AR Foundation is used for handling augmented reality features like plane detection and image tracking.
-- C#: Scripts are written in C# to control the game's logic, such as dart throwing and scoring.
+## Gereksinimler
+- Unity (2020.3 veya üzeri önerilir)
+- AR Foundation
+- ARKit (iOS için) veya ARCore (Android için)
+- C# desteği
 
-## Getting Started
-  To run this project, you need Unity with AR Foundation support installed. Follow these steps to set up and run the game:
-- Clone the repository or download the project files.
-- Open the project in Unity.
-- Ensure that the necessary AR packages are imported, such as AR Foundation, ARCore (for Android), or ARKit (for iOS).
-- Download and install any required libraries and dependencies through the Unity Package Manager.
-- Build the project to your target platform (Android or iOS).
-- Deploy the application to your mobile device and start playing the game. 
+## Kurulum ve Çalıştırma
+1. Bu projeyi GitHub’dan klonlayın veya ZIP olarak indirin.
+2. Unity ile projeyi açın.
+3. AR Foundation ve platforma özel (ARKit veya ARCore) paketleri yükleyin.
+4. `Scenes` klasöründeki örnek sahneyi açın.
+5. `iOS` veya `Android` platformuna build alın.
+6. Xcode veya Android Studio üzerinden cihaza deploy edin.
+
+---
+
+**Not:** Proje, iOS cihazlarda ARKit desteğiyle sorunsuz çalışır. Xcode ile iPhone’a yüklenebilir.
 
 ## Video Demonstration
 • https://www.youtube.com/shorts/esa0YSy-xG8
