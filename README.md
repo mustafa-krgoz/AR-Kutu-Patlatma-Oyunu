@@ -1,13 +1,13 @@
 # 📦 AR Kutu Patlatma Oyunu
 
-Bu proje, ARKit kullanılarak Swift ile geliştirilen eğlenceli ve etkileşimli bir artırılmış gerçeklik (AR) oyunudur. Oyuncular, gerçek dünya ortamında sanal kutuları hedef alarak top fırlatır ve kutuları patlatmaya çalışır. Gerçekçi fizik, puanlama ve etkileşimli deneyim sunar.
+ ARKit kullanılarak Swift ile geliştirilen eğlenceli ve etkileşimli bir artırılmış gerçeklik (AR) oyunudur. Oyuncular, gerçek dünya ortamında sanal kutuları hedef alarak top fırlatır ve kutuları patlatmaya çalışır. Gerçekçi fizik, puanlama ve etkileşimli deneyim sunar.
 
 ---
 
 ## 🎯 Proje Amacı
 
 - ARKit ile etkileşimli oyun tasarımı gerçekleştirmek  
-- Fizik temelli kutu yıkma mekaniği geliştirmek  
+- Fizik temelli kutu patlatma mekaniği geliştirmek  
 - iOS platformunda gerçek dünya ile uyumlu oyun deneyimi sunmak  
 
 ---
@@ -36,51 +36,55 @@ Bu proje, ARKit kullanılarak Swift ile geliştirilen eğlenceli ve etkileşimli
 1. Bu repoyu klonla veya ZIP olarak indir:
    ```bash
    git clone https://github.com/halitmustafakaragoz/KutulariYikAR.git
-2.	KutulariYikAR.xcodeproj dosyasını Xcode ile aç.
-3.	Signing & Capabilities kısmında kendi Apple Developer hesabını seç.
-4.	iPhone cihazını USB ile bağla.
-5.	Xcode’da sol üstten cihazını seçip Cmd + R ile projeyi çalıştır.
+   ```
+2. `KutulariYikAR.xcodeproj` dosyasını Xcode ile aç.
+3. `Signing & Capabilities` kısmında kendi Apple Developer hesabını seç.
+4. iPhone cihazını USB ile bağla.
+5. Xcode’da sol üstten cihazını seçip `Cmd + R` ile projeyi çalıştır.
 
 ---
 
 ## 📱 Oynanış
- 
- • Uygulama açıldığında ARKit ortamı devreye girer.
- • Düz yüzey algılandığında kutular otomatik olarak sahneye yerleştirilir.
- • Ekrana dokunarak top atılır.
- • Amaç: Tüm kutuları devirmek ve en yüksek skoru elde etmektir.
+
+- Uygulama açıldığında ARKit ortamı devreye girer.
+- Düz yüzey algılandığında kutular otomatik olarak sahneye yerleştirilir.
+- Ekrana dokunarak top atılır.
+- Amaç: Tüm kutuları devirmek ve en yüksek skoru elde etmektir.
 
 ---
 
 ## 📁 Dosya Yapısı
 
-  • Sources/ → Oyun mantığı ve ARKit bileşenleri
-  • Assets.xcassets/ → 3D modeller, ikonlar, materyaller
-  • Info.plist → Uygulama izinleri (kamera vs)
-  • ARkitGame.xcodeproj/ → Xcode proje yapılandırması
+- `Sources/` → Oyun mantığı ve ARKit bileşenleri  
+- `Assets.xcassets/` → 3D modeller, ikonlar, materyaller  
+- `Info.plist` → Uygulama izinleri (kamera vs)  
+- `ARkitGame.xcodeproj/` → Xcode proje yapılandırması
 
 ---
 
 ## 📄 Teslim Belgeleri (örnek amaçlı)
-  •	        KutulariYikAR_GereksinimAnalizi.docx
-	•	KutulariYikAR_SistemMimarisi.docx
-	•	KutulariYikAR_KurulumKılavuzu.docx
-	•	KutulariYikAR_TestRaporu.docx
-	•	KutulariYikAR_ProgramcıKılavuzu.docx
-	•	KutulariYikAR_ProjeSunumu.pptx
-	•	UseCaseDiagram.pdf
-	•	ClassDiagram.pdf
-	•	SequenceDiagram.pdf
+
+- `KutulariYikAR_GereksinimAnalizi.docx`  
+- `KutulariYikAR_SistemMimarisi.docx`  
+- `KutulariYikAR_KurulumKılavuzu.docx`  
+- `KutulariYikAR_TestRaporu.docx`  
+- `KutulariYikAR_ProgramcıKılavuzu.docx`  
+- `KutulariYikAR_ProjeSunumu.pptx`  
+- `UseCaseDiagram.pdf`  
+- `ClassDiagram.pdf`  
+- `SequenceDiagram.pdf`
 
 ---
 
 ## 🎥 APK Video Gösterimi
 
-📽️ Demo Videosu - Kutuları Yık! AR
+📽️ [Demo Videosu - YouTube'da İzle](https://www.youtube.com/shorts/_U19OS-dXWE)
 
 ---
 
-##  📋 Trello Panosu: Kutuları Yık! AR - Proje Takibi
+## 📋 Trello Panosu
+
+📌 [AR Kutu Patlatma Oyunu - Trello Proje Takibi](https://trello.com/b/7gjRe2zo/ar-kutu-patlatma-oyunu-proje-takibi)
 
 ---
 
