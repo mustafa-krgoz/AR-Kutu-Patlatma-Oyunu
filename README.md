@@ -62,17 +62,20 @@
 
 ---
 
-## 📄 Teslim Belgeleri (örnek amaçlı)
+## 📄 Teslim Belgeleri
 
-- `KutulariYikAR_GereksinimAnalizi.docx`  
-- `KutulariYikAR_SistemMimarisi.docx`  
-- `KutulariYikAR_KurulumKılavuzu.docx`  
-- `KutulariYikAR_TestRaporu.docx`  
-- `KutulariYikAR_ProgramcıKılavuzu.docx`  
-- `KutulariYikAR_ProjeSunumu.pptx`  
-- `UseCaseDiagram.pdf`  
-- `ClassDiagram.pdf`  
-- `SequenceDiagram.pdf`
+| Belge Adı | Açıklama |
+|-----------|----------|
+| ARKutuPatlatma-Gereksinim-Analizi.docx | Fonksiyonel ve fonksiyonel olmayan gereksinimler |
+| ARKutuPatlatma-Sistem-Mimarisi.docx | Katmanlı yapı, sınıf ilişkileri ve bileşenler |
+| ARKutuPatlatma-Kurulum-Kilavuzu.docx | Xcode ve iPhone için kurulum adımları |
+| ARKutuPatlatma-Kullanici-Kilavuzu.docx | Oyunun nasıl oynandığına dair kullanım adımları |
+| ARKutuPatlatma-Test-Raporu.docx | Test senaryoları, başarı oranı ve sonuçlar |
+| ARKutuPatlatma-Programci-Kilavuzu.docx | Kod yapısı, önemli sınıflar ve geliştirici notları |
+| ARKutuPatlatma-Zaman-Cizelgesi.docx | Haftalık proje planı ve tamamlanma durumu |
+| ARKutuPatlatma-Urün-Degerlendirme.docx | Hedeflere ulaşma değerlendirmesi |
+| ARKutuPatlatma-Proje-Sunumu.pptx | Final sunum slaytları |
+| ARKutuPatlatma-Class-Diagram.pdf | Sınıflar arası ilişkileri gösteren UML diyagramı |
 
 ---
 
