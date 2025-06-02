@@ -1,6 +1,6 @@
-# 📦 Kutuları Yık! AR
+# 📦 AR Kutu Patlatma Oyunu
 
-Bu proje, ARKit kullanılarak Swift ile geliştirilen eğlenceli ve etkileşimli bir artırılmış gerçeklik (AR) oyunudur. Oyuncular, gerçek dünya ortamında sanal kutuları hedef alarak top fırlatır ve kutuları devirmeye çalışır. Gerçekçi fizik, puanlama ve etkileşimli deneyim sunar.
+Bu proje, ARKit kullanılarak Swift ile geliştirilen eğlenceli ve etkileşimli bir artırılmış gerçeklik (AR) oyunudur. Oyuncular, gerçek dünya ortamında sanal kutuları hedef alarak top fırlatır ve kutuları patlatmaya çalışır. Gerçekçi fizik, puanlama ve etkileşimli deneyim sunar.
 
 ---
 
@@ -44,25 +44,25 @@ Bu proje, ARKit kullanılarak Swift ile geliştirilen eğlenceli ve etkileşimli
 ---
 
 ## 📱 Oynanış
-
-  •	Uygulama açıldığında ARKit ortamı devreye girer.
-	•	Düz yüzey algılandığında kutular otomatik olarak sahneye yerleştirilir.
-	•	Ekrana dokunarak top atılır.
-	•	Amaç: Tüm kutuları devirmek ve en yüksek skoru elde etmektir.
+ 
+ • Uygulama açıldığında ARKit ortamı devreye girer.
+ • Düz yüzey algılandığında kutular otomatik olarak sahneye yerleştirilir.
+ • Ekrana dokunarak top atılır.
+ • Amaç: Tüm kutuları devirmek ve en yüksek skoru elde etmektir.
 
 ---
 
 ## 📁 Dosya Yapısı
 
-  •	Sources/ → Oyun mantığı ve ARKit bileşenleri
-	•	Assets.xcassets/ → 3D modeller, ikonlar, materyaller
-	•	Info.plist → Uygulama izinleri (kamera vs)
-	•	KutulariYikAR.xcodeproj/ → Xcode proje yapılandırması
+  • Sources/ → Oyun mantığı ve ARKit bileşenleri
+  • Assets.xcassets/ → 3D modeller, ikonlar, materyaller
+  • Info.plist → Uygulama izinleri (kamera vs)
+  • ARkitGame.xcodeproj/ → Xcode proje yapılandırması
 
 ---
 
 ## 📄 Teslim Belgeleri (örnek amaçlı)
-  •	KutulariYikAR_GereksinimAnalizi.docx
+  •	        KutulariYikAR_GereksinimAnalizi.docx
 	•	KutulariYikAR_SistemMimarisi.docx
 	•	KutulariYikAR_KurulumKılavuzu.docx
 	•	KutulariYikAR_TestRaporu.docx
@@ -74,9 +74,13 @@ Bu proje, ARKit kullanılarak Swift ile geliştirilen eğlenceli ve etkileşimli
 
 ---
 
-## 🎥 Video Gösterimi
+## 🎥 APK Video Gösterimi
 
 📽️ Demo Videosu - Kutuları Yık! AR
+
+---
+
+##  📋 Trello Panosu: Kutuları Yık! AR - Proje Takibi
 
 ---
 
