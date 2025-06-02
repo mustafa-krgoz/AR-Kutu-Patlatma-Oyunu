@@ -35,7 +35,7 @@
 
 1. Bu repoyu klonla veya ZIP olarak indir:
    ```bash
-   git clone https://github.com/halitmustafakaragoz/KutulariYikAR.git
+   git clone https://github.com/mustafa-krgoz/AR-Kutu-Patlatma-Oyunu.git
    ```
 2. `KutulariYikAR.xcodeproj` dosyasını Xcode ile aç.
 3. `Signing & Capabilities` kısmında kendi Apple Developer hesabını seç.
