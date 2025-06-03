@@ -1,24 +1,28 @@
 # 📦 AR Kutu Patlatma Oyunu
 
- ARKit kullanılarak Swift ile geliştirilen eğlenceli ve etkileşimli bir artırılmış gerçeklik (AR) oyunudur. Oyuncular, gerçek dünya ortamında sanal kutuları hedef alarak top fırlatır ve kutuları patlatmaya çalışır. Gerçekçi fizik, puanlama ve etkileşimli deneyim sunar.
+**ARKit teknolojisiyle Swift dili kullanılarak geliştirilen eğlenceli ve interaktif bir artırılmış gerçeklik (AR) oyunudur.** Gerçek dünyayı dijital dünya ile buluşturan bu projede, oyuncular sanal kutuları hedef alarak top fırlatır ve eğlenceli bir “kutu patlatma” deneyimi yaşar.  
+
+**Gerçek zamanlı fizik, puanlama ve sade kullanıcı arayüzü** sayesinde oyun, özellikle küçük yaştaki kullanıcılar için öğrenmesi kolay, oynaması keyifli bir eğlence sunar.
 
 ---
 
 ## 🎯 Proje Amacı
 
-- ARKit ile etkileşimli oyun tasarımı gerçekleştirmek  
-- Fizik temelli kutu patlatma mekaniği geliştirmek  
-- iOS platformunda gerçek dünya ile uyumlu oyun deneyimi sunmak  
+- ARKit ile oyun geliştirme becerisi kazanmak  
+- Çocuklara yönelik hedef odaklı ve fizik temelli mini oyun sunmak  
+- iOS cihazlar için sezgisel, sade ve etkileşimli bir deneyim oluşturmak  
+- Gerçek dünya yüzeylerinde sanal nesnelerle oynamanın keyfini yaşatmak  
 
 ---
 
 ## 🚀 Oyunun Özellikleri
 
-- **Düzlem Algılama (Plane Detection)**: Cihazın kamerası ile düz yüzey algılanır.
-- **Otomatik Kutular Yerleşimi**: Yüzey keşfedildiğinde kutular yerleştirilir.
-- **Top ile Etkileşim**: Oyuncu ekrana dokunarak top fırlatır.
-- **Gerçek Zamanlı Puanlama**: Kalan kutulara göre skor güncellenir.
-- **Basit ve Eğlenceli Oynanış**: Minimum UI, maksimum etkileşim.
+- **🔍 Düzlem Algılama (Plane Detection)**: Kamera ile masa, zemin gibi yüzeyler otomatik algılanır.
+- **📦 Kutuların Akıllı Yerleşimi**: Algılanan yüzeye dengeli bir şekilde sanal kutular yerleştirilir.
+- **🎯 Hedefleme ve Atış**: Oyuncu ekranına dokunarak hedefe top fırlatır.
+- **⚙️ Gerçekçi Fizik ve Etkileşim**: Kutular top ile çarpışınca devrilir, fizik motoruyla dinamik tepki verir.
+- **🏆 Puanlama Sistemi**: Hedefleri başarıyla vurdukça puan artar.
+- **🎮 Sade Arayüz**: Küçük çocuklar için sade, kolay anlaşılır ve dokunmatik kontrollü yapı.
 
 ---
 
@@ -81,7 +85,7 @@
 
 ## 🎥 APK Video Gösterimi
 
-📽️ [Demo Videosu - YouTube'da İzle](https://www.youtube.com/shorts/_U19OS-dXWE)
+📽️ [Demo Videosu - YouTube'da İzle](https://www.youtube.com/shorts/yshWJ_DEKjo)
 
 ---
 
