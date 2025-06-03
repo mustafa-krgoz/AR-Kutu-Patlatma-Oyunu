@@ -41,7 +41,7 @@
    ```bash
    git clone https://github.com/mustafa-krgoz/AR-Kutu-Patlatma-Oyunu.git
    ```
-2. `KutulariYikAR.xcodeproj` dosyasını Xcode ile aç.
+2. `ARkitGame.xcodeproj` dosyasını Xcode ile aç.
 3. `Signing & Capabilities` kısmında kendi Apple Developer hesabını seç.
 4. iPhone cihazını USB ile bağla.
 5. Xcode’da sol üstten cihazını seçip `Cmd + R` ile projeyi çalıştır.
