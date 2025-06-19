@@ -19,16 +19,17 @@ Bu doküman, **AR Kutu Patlatma Oyunu**'nun geliştirme ortamında nasıl çalı
 
 ```bash
 git clone https://github.com/halitmustafakaragoz/AR-Kutu-Patlatma-Oyunu.git
-### 2. Xcode ile Aç
+
+2. Xcode ile Aç
 	•	Terminalden ya da Finder üzerinden KutulariYikAR.xcodeproj dosyasına çift tıklayarak projeyi Xcode ile aç.
 
-### 3. Apple Developer Hesabını Ayarla
+3. Apple Developer Hesabını Ayarla
 	•	Xcode’da sol üstte yer alan proje adına tıkla.
 	•	Signing & Capabilities sekmesinde kendi Apple hesabını seç.
 
-### 4. Cihazını Bağla
+4. Cihazını Bağla
 	•	iPhone cihazını USB ile Mac’e bağla.
 	•	Hedef cihaz olarak iPhone’unu seç.
 
-### 5. Build ve Çalıştır
+5. Build ve Çalıştır
 	•	Xcode sol üstte yer alan ▶️ tuşuna (veya Cmd + R) basarak projeyi derle ve cihazda çalıştır.
