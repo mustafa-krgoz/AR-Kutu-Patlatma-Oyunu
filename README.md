@@ -33,29 +33,29 @@
 <table>
   <tr>
     <td align="center">
-      <strong>1. Ana AR Sahnesi</strong><br>
+      <strong>1. APK Dosyası (ARkitGame) </strong><br>
       <img src="screenshots/1.jpeg" width="200"/>
     </td>
     <td align="center">
-      <strong>2. Top Fırlatma</strong><br>
+      <strong>2. Oyun Başlangıcı (6 Kutu ve 6 Atış Hakkı) </strong><br>
       <img src="screenshots/2.jpeg" width="200"/>
     </td>
     <td align="center">
-      <strong>3. Fizik Etkileşimi</strong><br>
+      <strong>3. Atış Anı </strong><br>
       <img src="screenshots/3.jpeg" width="200"/>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <strong>4. Kutular Devrildi</strong><br>
+      <strong>4. Atış Anı (Kutular Devrildi) </strong><br>
       <img src="screenshots/4.jpeg" width="200"/>
     </td>
     <td align="center">
-      <strong>5. Başarısız Atış</strong><br>
+      <strong>5. Oyunu Kazanma Ekranı </strong><br>
       <img src="screenshots/5.jpeg" width="200"/>
     </td>
     <td align="center">
-      <strong>6. Güncellenmiş Puan</strong><br>
+      <strong>6. Oyunu Kaybetme Ekranı </strong><br>
       <img src="screenshots/6.jpeg" width="200"/>
     </td>
   </tr>
