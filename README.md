@@ -26,6 +26,32 @@
 
 ---
 
+## 📸 Ekran Görüntüleri
+
+<div align="center">
+
+### 1. Ana AR Sahnesi  
+<img src="screenshots/1.jpeg" width="400"/>
+
+### 2. Top fırlatma işlemi  
+<img src="screenshots/2.jpeg" width="400"/>
+
+### 3. Kutulara isabet sonrası fizik motoru etkileşimi  
+<img src="screenshots/3.jpeg" width="400"/>
+
+### 4. Başarıyla devrilen kutular ve puanlama  
+<img src="screenshots/4.jpeg" width="400"/>
+
+### 5. Başarısız atış sonrası kutuların sabit kalması  
+<img src="screenshots/5.jpeg" width="400"/>
+
+### 6. Güncellenmiş puan ve mesafe göstergesi  
+<img src="screenshots/6.jpeg" width="400"/>
+
+</div>
+
+---
+
 ## 🧰 Gereksinimler
 
 - Xcode 12 veya üzeri  
