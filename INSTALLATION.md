@@ -1,96 +1,34 @@
-# 📦 AR Kutu Patlatma Oyunu
+# ⚙️ Kurulum Rehberi – AR Kutu Patlatma Oyunu
 
- ARKit kullanılarak Swift ile geliştirilen eğlenceli ve etkileşimli bir artırılmış gerçeklik (AR) oyunudur. Oyuncular, gerçek dünya ortamında sanal kutuları hedef alarak top fırlatır ve kutuları patlatmaya çalışır. Gerçekçi fizik, puanlama ve etkileşimli deneyim sunar.
-
----
-
-## 🎯 Proje Amacı
-
-- ARKit ile etkileşimli oyun tasarımı gerçekleştirmek  
-- Fizik temelli kutu patlatma mekaniği geliştirmek  
-- iOS platformunda gerçek dünya ile uyumlu oyun deneyimi sunmak  
-
----
-
-## 🚀 Oyunun Özellikleri
-
-- **Düzlem Algılama (Plane Detection)**: Cihazın kamerası ile düz yüzey algılanır.
-- **Otomatik Kutular Yerleşimi**: Yüzey keşfedildiğinde kutular yerleştirilir.
-- **Top ile Etkileşim**: Oyuncu ekrana dokunarak top fırlatır.
-- **Gerçek Zamanlı Puanlama**: Kalan kutulara göre skor güncellenir.
-- **Basit ve Eğlenceli Oynanış**: Minimum UI, maksimum etkileşim.
+Bu doküman, **AR Kutu Patlatma Oyunu**'nun geliştirme ortamında nasıl çalıştırılacağını adım adım açıklamaktadır. Proje, Swift ve ARKit teknolojileri kullanılarak iOS platformu için geliştirilmiştir.
 
 ---
 
 ## 🧰 Gereksinimler
 
-- Xcode 12 veya üzeri  
-- Swift 5.0  
-- iOS 14.0 veya üzeri  
-- ARKit destekli iPhone cihazı (iPhone 7 veya üzeri)
+- macOS yüklü bir cihaz
+- Xcode 12 veya üzeri
+- iOS 14.0 veya üzeri bir iPhone (ARKit destekli: iPhone 7 ve üstü)
+- Apple Developer hesabı (test cihazında çalıştırmak için)
 
 ---
 
-## ⚙️ Kurulum ve Çalıştırma
+## 🚀 Kurulum Adımları
 
-1. Bu repoyu klonla veya ZIP olarak indir:
-   ```bash
-   git clone https://github.com/halitmustafakaragoz/KutulariYikAR.git
-   ```
-2. `KutulariYikAR.xcodeproj` dosyasını Xcode ile aç.
-3. `Signing & Capabilities` kısmında kendi Apple Developer hesabını seç.
-4. iPhone cihazını USB ile bağla.
-5. Xcode’da sol üstten cihazını seçip `Cmd + R` ile projeyi çalıştır.
+### 1. Projeyi Klonla
 
----
+```bash
+git clone https://github.com/halitmustafakaragoz/AR-Kutu-Patlatma-Oyunu.git
+### 2. Xcode ile Aç
+	•	Terminalden ya da Finder üzerinden KutulariYikAR.xcodeproj dosyasına çift tıklayarak projeyi Xcode ile aç.
 
-## 📱 Oynanış
+### 3. Apple Developer Hesabını Ayarla
+	•	Xcode’da sol üstte yer alan proje adına tıkla.
+	•	Signing & Capabilities sekmesinde kendi Apple hesabını seç.
 
-- Uygulama açıldığında ARKit ortamı devreye girer.
-- Düz yüzey algılandığında kutular otomatik olarak sahneye yerleştirilir.
-- Ekrana dokunarak top atılır.
-- Amaç: Tüm kutuları devirmek ve en yüksek skoru elde etmektir.
+### 4. Cihazını Bağla
+	•	iPhone cihazını USB ile Mac’e bağla.
+	•	Hedef cihaz olarak iPhone’unu seç.
 
----
-
-## 📁 Dosya Yapısı
-
-- `Sources/` → Oyun mantığı ve ARKit bileşenleri  
-- `Assets.xcassets/` → 3D modeller, ikonlar, materyaller  
-- `Info.plist` → Uygulama izinleri (kamera vs)  
-- `ARkitGame.xcodeproj/` → Xcode proje yapılandırması
-
----
-
-## 📄 Teslim Belgeleri (örnek amaçlı)
-
-- `KutulariYikAR_GereksinimAnalizi.docx`  
-- `KutulariYikAR_SistemMimarisi.docx`  
-- `KutulariYikAR_KurulumKılavuzu.docx`  
-- `KutulariYikAR_TestRaporu.docx`  
-- `KutulariYikAR_ProgramcıKılavuzu.docx`  
-- `KutulariYikAR_ProjeSunumu.pptx`  
-- `UseCaseDiagram.pdf`  
-- `ClassDiagram.pdf`  
-- `SequenceDiagram.pdf`
-
----
-
-## 🎥 APK Video Gösterimi
-
-📽️ [Demo Videosu - YouTube'da İzle](https://www.youtube.com/shorts/_U19OS-dXWE)
-
----
-
-## 📋 Trello Panosu
-
-📌 [AR Kutu Patlatma Oyunu - Trello Proje Takibi](https://trello.com/b/7gjRe2zo/ar-kutu-patlatma-oyunu-proje-takibi)
-
----
-
-## 👨‍🎓 Geliştirici Bilgileri
-
-Adı Soyadı: Halit Mustafa Karagöz
-Öğrenci No: 200541043
-Proje Dersi: Yazılım Mühendisliğinde Güncel Konular
-Teslim Dönemi: Bahar 2025
+### 5. Build ve Çalıştır
+	•	Xcode sol üstte yer alan ▶️ tuşuna (veya Cmd + R) basarak projeyi derle ve cihazda çalıştır.
